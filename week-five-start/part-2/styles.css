@@ -26,7 +26,12 @@ header a {
 header {
     position: relative;
     height: 45vh; 
-    background-color: #BADA55;  
+    background-color: #BADA55;
+    background-image: url('assets/pexels-sanketh-rao-716107.jpg');
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;   
 }
 
 main {
@@ -84,3 +89,14 @@ nav a {
 }
 
 /* Backgrounds & Images */
+
+.photo-container {
+    width: 200px; 
+    height: 150px; 
+}
+
+.photo-container img {
+    max-width: 100%;
+    height: auto;  
+}
+
