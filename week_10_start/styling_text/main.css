@@ -1,0 +1,100 @@
+/* Locally Hosted Web Font */ 
+@font-face {
+    font-family: 'coinyregular';
+    src: url('fonts/coiny-regular-webfont.woff2') format('woff2'),
+         url('fonts/coiny-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Externally Hosted Web Font */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+/* GENERAL STYLES & RESETS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* set the font-size on the root element to 10px to make it easier to calculate */ 
+html {
+    font-size: 10px; 
+}
+
+body {
+    height: 100vh; 
+}
+
+/* LAYOUT & APPEARANCE */
+
+.container {
+    width: 60vw; 
+    border: 2px solid #eaeaea; 
+    border-radius: 2px; 
+    margin: 0 auto;
+    padding: 2em;  
+}
+
+p {
+    padding-bottom: 2em; 
+}
+
+main p:nth-of-type(1) {
+    padding-top: 2em; 
+}
+
+
+/* TYPOPGRAPHY */
+
+/* set font family for headings - locally hosted web font - @font-face / .woff */ 
+
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'coinyregular', sans-serif; 
+}
+
+
+/* set font family for body text - externally hosted web font (Google Web Font) */
+
+body {
+    font-size: 1.8rem;
+    /* use a unitless value for line height */
+    line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+    color: #222; 
+}
+
+/* font-sizing */ 
+
+h1 {
+    font-size: 3.4rem; 
+    color: #006992
+}
+
+h2 {
+    font-size: 2.8rem; 
+    color: #ECA400; 
+}
+
+h3 {
+    font-size: 2.6rem; 
+}
+
+h4 {
+    font-size: 2.4rem;
+}
+
+h5 {
+    font-size: 2.2rem; 
+}
+
+h6 {
+    font-size: 2rem; 
+}
