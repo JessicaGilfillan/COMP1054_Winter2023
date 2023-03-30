@@ -16,7 +16,8 @@ body {
 }
 
 .wrapper {
-
+  width: 960px;
+  margin: 0 auto;  
 }
 
 h1, 
@@ -47,9 +48,13 @@ h3 {
 main {
   background-color: #8bd3dd;
   padding: 20px; 
+  width: 576px;
+  float:left;
 }
 
 aside {
   background-color: #f3d2c1;
-  padding: 20px;  
+  padding: 20px;
+  width: 384px;
+  float: right; 
 }
