@@ -51,64 +51,11 @@ body {
 
 /* TASK ONE */
 
-.taskOne .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
 
 /* TASK TWO */
 
-.taskTwo .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
-    gap: 10px;
-}
-
-.item1 {
-    background-color: rgb(257,87,20); 
-    grid-column: 1 / 4;
-    grid-row: 1 / 3;
-}
-
-.item2 {
-    background-color: rgba(232,170, 20, 0.5); 
-    grid-column: 2/5;
-    grid-row: 2/4;
-}
 
 /* TASK THREE */ 
 
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: 
-    "a a a"
-    "b c c"
-    ". d d";          
-    gap: 20px;
-  }
-  
-  .one {
-    background-color: #D1495B;
-    grid-area: a; 
-  }
-  
-  .two {
-    background-color: #00798C;
-    grid-area : b; 
-  }
-  
-  .three {
-    background-color: #EDAE49;
-    grid-area: c; 
-  }
-  
-  .four {
-    background-color: #30638E;
-    grid-area: d; 
-  }
 
   /* Challenges Adapted from https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grid_skills */ 
